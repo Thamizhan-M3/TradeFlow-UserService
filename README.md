@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-## Endpoints
+## Endpoints.
 
 - `GET /health`
 - `POST /api/v1/users/register`
