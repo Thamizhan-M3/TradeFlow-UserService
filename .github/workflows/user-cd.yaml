@@ -75,6 +75,7 @@ jobs:
     with:
       service_name: user
       image_tag: ${{ needs.resolve-tag.outputs.image_tag }}
+      branch: ${{ needs.resolve-tag.outputs.branch }}
       helm_repo: Thamizhan-M3/Tradeflow-Kubernetes-Manifests
       values_file_path: helm/tradeflow
 
